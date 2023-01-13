@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Tencent\微信web开发者工具\cli.bat" cloud functions deploy --e cloud1-7gpdjdwvb81ac7ac --n quickstartFunctions --r --project "C:\Users\Sangfor\Desktop\wooden-fish" --report_start --report
