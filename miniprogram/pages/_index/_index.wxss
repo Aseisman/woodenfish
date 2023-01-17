@@ -1,0 +1,50 @@
+.container {
+  background-color: black;
+  width: 100%;
+  height: calc(100% - 80rpx);
+  padding: 40rpx 0;
+}
+
+.textbox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40rpx;
+}
+
+.total-number {
+  color: white;
+}
+
+.imagebox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100% - 40rpx);
+}
+
+.img {
+  width: 384rpx;
+  height: 288rpx;
+  /* transform: scale(0.6,0.6); */
+}
+
+.floatbox {
+  position: absolute;
+  top: 37%;
+  /* top: 50%; */
+  color: white;
+  left: 60%;
+  opacity: 0;
+}
+.autoplaybox{
+  position: fixed;
+  bottom: 10%;
+  right: 30rpx;
+}
+.playimg{
+  width: 100rpx;
+  height: 100rpx;
+}

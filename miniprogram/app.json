@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/_index/_index",
     "pages/index/index",
     "pages/getOpenId/index",
     "pages/getMiniProgramCode/index",
@@ -17,7 +18,7 @@
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTitleText": "功德木鱼",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json",

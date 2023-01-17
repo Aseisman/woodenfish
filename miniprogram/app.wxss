@@ -1,5 +1,5 @@
 /**app.wxss**/
-.container {
+/* .container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,4 +24,7 @@ page {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+} */
+page{
+  height: 100%
 }

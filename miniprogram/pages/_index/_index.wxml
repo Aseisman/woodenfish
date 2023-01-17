@@ -1,0 +1,16 @@
+<!--pages/_index/_index.wxml-->
+<view class="container">
+  <view class="textbox">
+    <text class="total-number">我的功德 : {{value}}</text>
+  </view>
+  <view class="imagebox" bindtap="onClick">
+    <image animation="{{imgAnimation}}" src="../../images/muyu.png" class="img" />
+  </view>
+  <view class="autoplaybox">
+    <image wx:if="{{recycleStatus == false}}" src="../../images/playCircle.png" class="playimg" bindtap="autoplay"/>
+    <image wx:elif="{{recycleStatus == true}}" src="../../images/stop.png" class="playimg" bindtap="stopplay" />
+  </view>
+  <view animation="{{textAnimation}}" class="floatbox">
+    <text>功德+1</text>
+  </view>
+</view>
